@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.labfx17.ControllerLab14">
+    <children>
+        <Button onAction="#clickCalc" fx:id="calc" layoutX="156.0" layoutY="148.0" mnemonicParsing="false" text="Calculate" />
+        <Button onAction="#clickClear" fx:id="clear" layoutX="167.0" layoutY="191.0" mnemonicParsing="false" text="Clear" />
+        <TextField fx:id="TextField1" layoutX="114.0" layoutY="30.0" />
+        <TextField fx:id="TextField2" layoutX="114.0" layoutY="72.0" />
+        <TextField fx:id="TextField3" layoutX="114.0" layoutY="112.0" />
+        <Label layoutX="76.0" layoutY="34.0" text="a" />
+        <Label layoutX="76.0" layoutY="76.0" text="b" />
+        <Label layoutX="76.0" layoutY="116.0" text="sum" />
+    </children>
+</Pane>
